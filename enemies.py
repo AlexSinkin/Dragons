@@ -34,7 +34,7 @@ class Dragon(Enemy):
 class GreenDragon(Dragon):
     def __init__(self):
         self.health = 200
-        self.attack = 10
+        self.attack_strength = 10
         self.color = 'зелёный'
 
     def question(self):
@@ -48,7 +48,7 @@ class GreenDragon(Dragon):
 class RedDragon(Dragon):
     def __init__(self):
         self.health = 200
-        self.attack = 10
+        self.attack_strength = 10
         self.color = 'красный'
 
     def question(self):
